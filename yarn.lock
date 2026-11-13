@@ -13707,18 +13707,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jotai@npm:2.9.3":
-  version: 2.9.3
-  resolution: "jotai@npm:2.9.3"
+"jotai@npm:3.0.2":
+  version: 3.0.2
+  resolution: "jotai@npm:3.0.2"
   peerDependencies:
-    "@types/react": ">=17.0.0"
-    react: ">=17.0.0"
+    "@types/react": ">=18.0.0"
+    react: ">=18.0.0"
   peerDependenciesMeta:
     "@types/react":
       optional: true
     react:
       optional: true
-  checksum: 10c0/d7a2aedeebd84f332b930c5dc06f6827c11a70c3b6bae0817e0c778f7c34996f3a47d5c544ff1b7ed2662083feed55ea6d77b281adf2e0fba65ad93b1723d687
+  checksum: 10c0/c2d7824305e3451651acade0ea7e877e2e7e67b0efa213da210ffeb39b84b9103aa98f9f7534709bb22dd4fab74985e37ab19bbbb3fe9592c2015b8ad09877aa
   languageName: node
   linkType: hard
 
@@ -22004,7 +22004,7 @@ __metadata:
     htl: "npm:^0.3.1"
     html-to-image: "npm:^1.11.11"
     immer: "npm:^10.1.1"
-    jotai: "npm:2.9.3"
+    jotai: "npm:3.0.2"
     monaco-editor: "npm:^0.52.0"
     monaco-yaml: "npm:^5.2.3"
     overlayscrollbars: "npm:^2.10.1"
