@@ -1,6 +1,6 @@
 module github.com/wavetermdev/waveterm
 
-go 1.23.4
+go 1.26.0
 
 require (
 	github.com/alexflint/go-filemutex v1.3.0
@@ -24,9 +24,9 @@ require (
 	github.com/spf13/cobra v1.8.1
 	github.com/ubuntu/gowsl v0.0.0-20240906163211-049fd49bd93b
 	github.com/wavetermdev/htmltoken v0.2.0
-	golang.org/x/crypto v0.31.0
-	golang.org/x/sys v0.28.0
-	golang.org/x/term v0.27.0
+	golang.org/x/crypto v0.58.0
+	golang.org/x/sys v0.49.0
+	golang.org/x/term v0.47.0
 )
 
 require (
@@ -45,7 +45,7 @@ require (
 	github.com/ubuntu/decorate v0.0.0-20230125165522-2d5b0a9bb117 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
-	golang.org/x/net v0.33.0 // indirect
+	golang.org/x/net v0.60.0 // indirect
 )
 
 replace github.com/kevinburke/ssh_config => github.com/wavetermdev/ssh_config v0.0.0-20241219203747-6409e4292f34
