@@ -63,7 +63,7 @@ jobs:
               with:
                   node-version: ${{env.NODE_VERSION}}
             - name: Install Yarn
-              uses: nick-fields/retry@v3
+              uses: nick-fields/retry@v4
               with:
                   command: |
                       corepack enable
@@ -118,7 +118,7 @@ jobs:
                   USE_SYSTEM_FPM: true # Ensure that the installed version of FPM is used rather than the bundled one.
                   SNAPCRAFT_BUILD_ENVIRONMENT: host
             # Retry Darwin build in case of notarization failures
-            - uses: nick-fields/retry@v3
+            - uses: nick-fields/retry@v4
               name: Build (Darwin)
               if: matrix.platform == 'darwin'
               with:
