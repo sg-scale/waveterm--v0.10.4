@@ -1,6 +1,6 @@
 module github.com/wavetermdev/waveterm
 
-go 1.23.4
+go 1.26.0
 
 require (
 	github.com/alexflint/go-filemutex v1.3.0
@@ -18,30 +18,30 @@ require (
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/sashabaranov/go-openai v1.36.0
 	github.com/sawka/txwrap v0.2.0
-	github.com/shirou/gopsutil/v4 v4.24.11
+	github.com/shirou/gopsutil/v4 v4.26.10
 	github.com/skeema/knownhosts v1.3.0
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966
 	github.com/spf13/cobra v1.8.1
 	github.com/ubuntu/gowsl v0.0.0-20240906163211-049fd49bd93b
 	github.com/wavetermdev/htmltoken v0.2.0
 	golang.org/x/crypto v0.31.0
-	golang.org/x/sys v0.28.0
+	golang.org/x/sys v0.48.0
 	golang.org/x/term v0.27.0
 )
 
 require (
-	github.com/ebitengine/purego v0.8.1 // indirect
+	github.com/ebitengine/purego v0.11.2 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/lufia/plan9stats v0.0.0-20211012122336-39d0f177ccd0 // indirect
-	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
+	github.com/power-devops/perfstat v0.0.0-20260805114148-88456608a4f6 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	github.com/tklauser/go-sysconf v0.3.12 // indirect
-	github.com/tklauser/numcpus v0.6.1 // indirect
+	github.com/tklauser/go-sysconf v0.4.0 // indirect
+	github.com/tklauser/numcpus v0.12.0 // indirect
 	github.com/ubuntu/decorate v0.0.0-20230125165522-2d5b0a9bb117 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
